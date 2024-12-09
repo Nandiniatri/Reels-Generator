@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 200px; 
+  height: 350px; 
+  margin-top: 5px;
+  cursor: pointer;
+  object-fit: cover;
+  display: block;
+}
+video{
+  width: 200px; 
+  height: 350px; 
+  margin-top: 5px;
+  cursor: pointer;
+  object-fit: cover;
+  display: block;
+}
+.template-main-div {
+  display: grid;
+  grid-template-columns: 1fr 2fr; 
+  gap: 10px;
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.div-first-image {
+  border: 1px solid #000;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 10px;
+  max-width: 430px;
+  padding: 10px;
+}
+
+.div-second-canvas {
+  border: solid blue;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  background-color: #f9f9f9;
+  align-items: center;
+  padding: 20px;
+  color: black;
+  gap: 70px;
+}
+
+  /* border: solid;
+  border-left: 100px solid;
+  border-right: 100px solid;
+  border-bottom: 100px solid blue;
+  width: 0;
+  height: 0; */
+  /* border: 8px solid transparent;
+  border-top: 24px solid black;
+  width: 0px; */
+.canvas{
+  border: solid;
+  width: 300px;
+  height: 350px; 
+}
+.selected-image-div{
+  border: solid black;
+  /* width: 200px; */
+  /* height: 350px; */
+  object-fit: cover;
+}
+.selcted-image{
+  width: 240px; 
+  height: 390px; 
+  margin-top: 5px;
+  cursor: pointer;
+  object-fit: cover;
+  display: block;
+}
